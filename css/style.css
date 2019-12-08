@@ -1,7 +1,6 @@
 html{
 	background: #cccccc no-repeat;
 	background-image: linear-gradient(beige, beige, #b6c9c2);
-	font-size: large;
 }
 body{
     background-color: rgba(0, 0, 0, 0);
@@ -148,50 +147,50 @@ footer{
 }
 /* Next & previous buttons */
 .prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px; /*easier to trap*/
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px; /*easier to trap*/
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
 }
 
 /* Position the "next button" to the right */
 .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+	right: 0;
+	border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, 
+.prev:hover,
 .next:hover {
-  background-color: rgba(0,0,0,0.8);
+	background-color: rgba(0,0,0,0.8);
 }
 img {
 	margin-bottom: -4px;
 }
 /* Caption text */
 .caption-container {
-  color: black;
-  background-color: antiquewhite;
-  font-size: 25px;
-  padding: 2px 16px;
-  text-align: center;
+	color: black;
+	background-color: antiquewhite;
+	font-size: 25px;
+	padding: 2px 16px;
+	text-align: center;
 }
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: black;
-  background-color: antiquewhite;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+	color: black;
+	background-color: antiquewhite;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
 }
 .demo {
 	opacity: 0.6;
