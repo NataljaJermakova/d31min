@@ -32,7 +32,7 @@
                         <li><a href="index#home">Home</a></li>
                         <li><a href="index#our_team">Our team</a></li>
                         <li><a href="index#project">Projects</a></li>
-                        <li><a href="index#maps">Map</a></li>
+                        <li><a href="index#map">Map</a></li>
                         <li><a href="#home">Contact</a></li>
                     </ul>
                     <form class="form-inline">
@@ -59,17 +59,26 @@
                     <div class="form-group">
                         <label for="email">Email address</label>
                         <input type="email" class="form-control" id="email" placeholder="lonely.otter@cry.yes" name="email">
-                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else. Maybe</small>
+                        <small id="emailHelp" class="form-text text-muted" name="hint">We'll never share your email with anyone else. Maybe</small>
                     </div>
                     <div class="form-group">
                         <label for="phone">Phone number</label>
-                        <input type="text" class="form-control" id="phone" placeholder="200-00-000" name="phone">
+                        <input type="text" class="form-control" id="phone" placeholder="200-00-000 (Latvian numbers only)" name="phone">
                     </div>
                     <div class="form-group">
                         <label for="question">Write your question</label>
                         <textarea class="form-control" name="question" id="question" rows="3"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-primary" name="save">Submit</button>
+                    <?php
+                        if(isset($_POST['save'])){
+                            echo "<b>Name:</b>{$_POST['name']}";
+                            echo "<b>Surname:</b>{$_POST['surname']}<br/>";
+                            echo "<b>Email:</b>{$_POST['email']}<br/>";
+                            echo "<b>Phone:</b>{$_POST['phone']}<br/>";
+                            echo "<b>Question:</b>{$_POST['question']}<br/>";
+                        }
+                    ?>
                   </form>
             </div>
         </div>
