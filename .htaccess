@@ -1,0 +1,24 @@
+RewriteEngine On
+
+#staigasana pa mapem
+Options -Indexes
+
+#Force hide file extentions
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+
+#Forse hide file extentions
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html
+
+#Force www:
+RewriteCond %{HTTP_HOST} ^bt.local [NC]
+RewriteRule ^(.*)$ http://www.bt.local/$1 [L,R=301,NC]
+
+#Error pages
+ErrorDocument 404 /errors/not_found.php
+
+#mapju staigasana
+ErrorDocument 403 /errors/forbidden.html
