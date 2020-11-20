@@ -49,33 +49,33 @@
             <div class="col-lg-8 col-md-9 col-sm-9 col-xs-12 ">
                 <form action="contact" method="POST">
                     <div class="form-group">
-                        <label for="name">Name</label>
-                        <input type="text" class="form-control" id="name" placeholder="Lonely" name="name">
+                        <label for="cName">Name</label>
+                        <input type="text" class="form-control" id="cName" placeholder="Lonely" name="cName">
                     </div>
                     <div class="form-group">
-                        <label for="surname">Surname</label>
-                        <input type="text" class="form-control" id="surname" placeholder="Otter" name="surname">
+                        <label for="cSurname">Surname</label>
+                        <input type="text" class="form-control" id="cSurname" placeholder="Otter" name="cSurname">
                     </div>
                     <div class="form-group">
-                        <label for="email">Email address</label>
-                        <input type="email" class="form-control" id="email" placeholder="lonely.otter@cry.yes" name="email">
+                        <label for="cEmail">Email address</label>
+                        <input type="email" class="form-control" id="cEmail" placeholder="lonely.otter@cry.yes" name="cEmail">
                         <small id="emailHelp" class="form-text text-muted" name="hint">We'll never share your email with anyone else. Maybe</small>
                     </div>
                     <div class="form-group">
-                        <label for="phone">Phone number</label>
-                        <input type="text" class="form-control" id="phone" placeholder="200-00-000 (Latvian numbers only)" name="phone">
+                        <label for="cPhone">Phone number</label>
+                        <input type="text" class="form-control" id="cPhone" placeholder="200-00-000 (Latvian numbers only)" name="cPhone">
                     </div>
                     <div class="form-group">
                         <label for="question">Write your question</label>
                         <textarea class="form-control" name="question" id="question" rows="3"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary" name="save">Submit</button>
+                    <button type="submit" class="btn btn-primary" name="cButton">Submit</button>
                     <?php
-                        if(isset($_POST['save'])){
-                            echo "<b>Name:</b>{$_POST['name']}";
-                            echo "<b>Surname:</b>{$_POST['surname']}<br/>";
-                            echo "<b>Email:</b>{$_POST['email']}<br/>";
-                            echo "<b>Phone:</b>{$_POST['phone']}<br/>";
+                        if(isset($_POST['cButton'])){
+                            echo "<b>Name:</b>{$_POST['cName']}";
+                            echo "<b>Surname:</b>{$_POST['cSurname']}<br/>";
+                            echo "<b>Email:</b>{$_POST['cEmail']}<br/>";
+                            echo "<b>Phone:</b>{$_POST['cPhone']}<br/>";
                             echo "<b>Question:</b>{$_POST['question']}<br/>";
                         }
                     ?>
