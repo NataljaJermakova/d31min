@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="libraries/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
@@ -63,19 +63,19 @@
                     <li>Otters like to stick together, so when they sleep they will wrap themselves in seaweed and float together in a group. A group of resting otters is called a raft. We wouldn't go drifting away on one of these rafts, however! Otters have a nasty bite!</li>
                 </ol>
             </div>
-        <div class="sidebar sticky col-lg-4 col-md-3 col-sm-3 col-xs-12">
-            <h2>Related</h2>
-            <ul>
-                <li><a href="#home">Fun facts about lutras</a></li>
-                <li><a href="#video">An otter having a brushing *super cute*</a></li>
-            </ul>
-            <a class="btn btn-outline-light" href="#home" role="button">
-                <span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span>
-            </a>
         </div>
 
+            <div class="sidebar sticky col-lg-4 col-md-3 col-sm-3 col-xs-12">
+                <h2>Related</h2>
+                <ul>
+                    <li><a href="#home">Fun facts about lutras</a></li>
+                    <li><a href="#video">An otter having a brushing *super cute*</a></li>
+                </ul>
+                <a class="btn btn-outline-light" href="#home" role="button">
+                    <span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span>
+                </a>
+            </div>
 
-        </div>
         <div class="row" id="our_team">
             <div class="col-lg-8 col-md-9 col-sm-9 col-xs-12 ">
                 <form action="test" method="POST">
