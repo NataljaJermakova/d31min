@@ -37,6 +37,7 @@
                         <li><a href="contact">Contact</a></li>
                     </ul>
                     <form class="form-inline">
+                        <a href="register">Sign Up</a>
                         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                     </form>
@@ -83,7 +84,7 @@
                     <div class="form-row">
                         <div class="form-group col-md-6">
                             <label for="formGroupExampleInput">Write your name</label>
-                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Don't worry" name="tName">
+                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Don't worry" name="tName" required>
                         </div>
                         <div class="form-group col-md-6">
                             <label for="exampleInputPassword1">Write your home name</label>
@@ -97,7 +98,7 @@
                             <input class="form-check-input" type="checkbox" value="1st" id="tSquares" name="tSquares[]">
                             <label class="form-check-label" for="defaultCheck1">First little square</label>
                         </div>
-                        <div class="form-check">
+                        <div class="form-check col-md-6">
                             <input class="form-check-input" type="checkbox" value="2nd" id="tSquares" name="tSquares[]">
                             <label class="form-check-label" for="defaultCheck2">Second little square</label>
                         </div>
@@ -105,7 +106,7 @@
                             <input class="form-check-input" type="checkbox" value="3rd" id="tSquares" name="tSquares[]">
                             <label class="form-check-label" for="defaultCheck3">Third little square</label>
                         </div>
-                        <div class="form-check">
+                        <div class="form-check col-md-6">
                             <input class="form-check-input" type="checkbox" value="4th" id="tSquares" name="tSquares[]">
                             <label class="form-check-label" for="defaultCheck4">Fourth little square</label>
                         </div>
@@ -115,7 +116,7 @@
                         <div class="form-group col-md-6">
                             <h4>How long can otters hold their breath? </h4>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="tTime" id="exampleRadios1" value="4">
+                                <input class="form-check-input" type="radio" name="tTime" id="exampleRadios1" value="4" required>
                                 <label class="form-check-label" for="exampleRadios1">4 min</label>
                             </div>
                             <div class="form-check">
@@ -134,7 +135,7 @@
                         <div class="form-group col-md-6">
                             <h4>How much do otters eat per day? </h4>
                             <div class="form-check2">
-                                <input class="form-check2-input" type="radio" name="tPercents" id="exampleRadios5" value="0.1">
+                                <input class="form-check2-input" type="radio" name="tPercents" id="exampleRadios5" value="0.1"  required>
                                 <label class="form-check-label" for="exampleRadios5">10% of its weight</label>
                             </div>
                             <div class="form-check2">
@@ -154,7 +155,7 @@
 
 
                     <h4>How is by now?</h4>
-                    <select id="inputMood" class="form-control" name="tMood">
+                    <select id="inputMood" class="form-control" name="tMood" required>
                         <option></option>
                         <option>Good</option>
                         <option>Ok</option>

@@ -36,6 +36,7 @@
                         <li><a href="contact">Contact</a></li>
                     </ul>
                     <form class="form-inline">
+                        <a href="register">Sign Up</a>
                         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                     </form>
@@ -64,12 +65,13 @@
                         }
                     }
                     
-                    echo "<b>Time: </b>{$_POST['tTime']}<br/>";
+                    echo "<br/><b>Time: </b>{$_POST['tTime']}<br/>";
                     echo "<b>Weight: </b>{$_POST['tPercents']}<br/>";
                     echo "<b>Mood: </b>{$_POST['tMood']}<br/>";
                 }
 
             ?>
+            <a href="index">Return</a>
             <div class="sidebar sticky col-lg-4 col-md-3 col-sm-3 col-xs-12">
                 <ul>
                     <h3><a href="index">Return</a></h3>

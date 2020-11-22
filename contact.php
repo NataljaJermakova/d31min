@@ -36,6 +36,7 @@
                         <li><a href="#home">Contact</a></li>
                     </ul>
                     <form class="form-inline">
+                        <a href="register">Sign Up</a>
                         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                     </form>
@@ -67,7 +68,7 @@
                     </div>
                     <div class="form-group">
                         <label for="question">Write your question</label>
-                        <textarea class="form-control" name="question" id="question" rows="3"></textarea>
+                        <textarea class="form-control" name="question" id="question" placeholder="What's the meaning of the life? (This one is already taken)" rows="3"></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary" name="cButton">Submit</button>
                     <?php
