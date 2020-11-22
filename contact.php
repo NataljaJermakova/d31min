@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="libraries/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
@@ -81,6 +80,9 @@
                         }
                     ?>
                   </form>
+            </div>
+            <div class="col-lg-4 col-md-3 col-sm-3">
+                <img src="image\LutraContact.jpg" alt="Otter is watching you" width="100%" style="border-radius: 50%;margin-top: 20%;">
             </div>
         </div>
 

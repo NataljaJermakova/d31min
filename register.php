@@ -66,7 +66,7 @@
     <div class="container">
         <div class="row" style="background: linear-gradient(beige, beige, #b6c9c2) no-repeat; background-image: linear-gradient(#00000000, #00000000);">
             <div class="col-md-3">
-            <img src="image\LutraRegistration.jpg" alt="Otter ir watching you" width="100%" style="border-radius: 50%;margin-top: 20%;">
+            <img src="image\LutraRegistration.jpg" alt="Welcome to our page!" width="100%" style="border-radius: 50%;margin-top: 20%;">
             </div>
             <div class="col-md-6 registration-box">
                 <form action="register" method="POST">
