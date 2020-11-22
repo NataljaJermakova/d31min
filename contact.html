@@ -70,15 +70,6 @@
                         <textarea class="form-control" name="question" id="question" placeholder="What's the meaning of the life? (This one is already taken)" rows="3"></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary" name="cButton">Submit</button>
-                    <?php
-                        if(isset($_POST['cButton'])){
-                            echo "<b>Name:</b>{$_POST['cName']}";
-                            echo "<b>Surname:</b>{$_POST['cSurname']}<br/>";
-                            echo "<b>Email:</b>{$_POST['cEmail']}<br/>";
-                            echo "<b>Phone:</b>{$_POST['cPhone']}<br/>";
-                            echo "<b>Question:</b>{$_POST['question']}<br/>";
-                        }
-                    ?>
                   </form>
             </div>
             <div class="col-lg-4 col-md-3 col-sm-3">
